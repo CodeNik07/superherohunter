@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperHero Hunter | Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <span class="ml-3 text-xl">SuperHero Hunter</span>
+            </a>
+            <nav
+                class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900 cursor-pointer" id="shh-Home">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="head w-full">
+            <h1 class="text-4xl text-center font-bold">Home</h1>
+        </div>
+        <div class="search w-full">
+            <div class="search-hero flex justify-center m-8">
+                <input type="text" name="" id="shero-#07" class="bg-gray-100 w-96 p-3 rounded-2xl"
+                    placeholder="Enter superhero name">
+                <button id="search-inp"
+                    class="bg-green-200 p-2 ml-2 w-24 rounded-2xl font-bold hover:bg-white hover:border-green-200 hover:border-2 hover:text-green-800">Search</button>
+            </div>
+        </div>
+        <div class="result w-full h-96 flex justify-center items-center" id="SuperHeroInfo">
+        </div>
+    </main>
+
+    <script src="jquery-3.7.0.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
