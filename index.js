@@ -34,7 +34,7 @@ $(() => {
     });
 
     $('#shh-Home').on('click', () => {
-        window.location.href = '/';
+        location.reload();
     });
 
     function showHeroInfo(res) {
